@@ -1,0 +1,76 @@
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+  }
+  
+  nav a,
+  .hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+  
+  .info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+  }
+  
+  .quote {
+    background-color:#E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+  }
+  
+  header {
+    background-color:#1F2937;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero {
+    background-color:#1F2937;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .quote {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .cta {
+    background-color:#3882F6;
+    color: #F9FAF8;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  footer {
+    background-color:#1F2937;
+    color: #E5E7EB;
+    padding: 1rem;
+    text-align: center;
+  }
