@@ -8,6 +8,13 @@
     color: #F9FAF8;
   }
   
+  nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 420px;
+  }
+
   nav a,
   .hero p {
     font-size: 18px;
@@ -17,8 +24,15 @@
   .logo {
     font-size: 24px;
     color: #F9FAF8;
+    padding: 8px;
   }
   
+  .nav-links {
+    display:flex;
+    justify-content: flex-end;
+    gap:15px;    
+  }
+
   .info h2 {
     font-size: 36px;
     font-weight: 800;
