@@ -26,12 +26,14 @@
     font-size: 24px;
     color: #F9FAF8;
     padding: 8px;
+    flex: 1;
   }
   
   .nav-links {
     display:flex;
-    justify-content: flex-end;
-    gap:15px;    
+    flex: 2;
+    padding: 8px;
+    gap:15px;   
   }
 
   .info h2 {
@@ -51,8 +53,9 @@
     background-color:#1F2937;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .hero {
