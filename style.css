@@ -106,6 +106,15 @@
     justify-content: space-around;
     align-items: center;
   }
+
+  button {
+    color:#F9FAF8;
+    font-weight: 600;
+    background-color:#3882F6;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 24px;
+  }
   
   footer {
     background-color:#1F2937;
