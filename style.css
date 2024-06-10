@@ -39,6 +39,8 @@
   }
 
   .info h2 {
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
@@ -77,8 +79,8 @@
   .hero-image {
     display:flex;
     flex:1;
-    justify-content: center;
-    height: 300px;
+    justify-content:space-around;
+    height: 250px;
     width: auto;
   }
 
