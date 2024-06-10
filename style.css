@@ -71,7 +71,6 @@
     justify-content: flex-start;
     align-items:flex-start;
     padding:1rem;
-    
   }
   
   .hero-image {
@@ -80,6 +79,10 @@
     justify-content: center;
     height: 300px;
     width: auto;
+  }
+
+  #sub-text {
+    margin:4px;
   }
 
   .info-cards {
