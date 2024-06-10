@@ -92,9 +92,15 @@
   .info-cards {
     display: flex;
     justify-content: center;
+    align-items:center;
     gap: 2rem;
   }
-  
+
+  #time {
+    height:100px;
+    width: auto;
+  }
+
   .quote {
     padding: 2rem;
     text-align: center;
