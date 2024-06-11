@@ -89,6 +89,10 @@
     margin-bottom: 16px;
   }
 
+  .info {
+    margin: 0 200px;
+  }
+
   .info-cards {
     display: flex;
     justify-content: center;
@@ -96,9 +100,26 @@
     gap: 2rem;
   }
 
+  .card {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .image-text {
+    height:auto;
+    width: 100px;
+    font-size: .6rem;
+  }
+
   #time {
     height:100px;
-    width: auto;
+    width: 100px;
+    border:2px solid #3882F6;
+    border-radius:8px;
   }
 
   .quote {
