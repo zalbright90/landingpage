@@ -146,6 +146,21 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 9px;
+    margin: 75px 200px;
+  }
+
+  .cta-text {
+    display:flex;
+    flex-direction: column;
+  }
+
+  #signup {
+    margin:0;
+  }
+
+  #outline {
+    border: 2px solid white;
   }
 
   button {
