@@ -90,13 +90,14 @@
   }
 
   .info {
-    margin: 0 200px;
+    margin: 0 200px 150px 200px;
   }
 
   .info-cards {
     display: flex;
     justify-content: center;
     align-items:center;
+    flex-wrap:wrap;
     gap: 2rem;
   }
 
@@ -106,7 +107,8 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    margin: 0;
+    max-width: 175px;
   }
 
   h3{
@@ -117,6 +119,7 @@
     height:auto;
     width: 100px;
     font-size: .6rem;
+    text-align: center;
   }
 
   .images {
@@ -127,7 +130,7 @@
   }
 
   .quote {
-    padding: 2rem;
+    padding: 150px;
     text-align: center;
   }
   
