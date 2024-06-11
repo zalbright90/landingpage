@@ -109,6 +109,10 @@
     padding: 16px;
   }
 
+  h3{
+    margin:4px;
+  }
+
   .image-text {
     height:auto;
     width: 100px;
