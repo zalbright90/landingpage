@@ -178,3 +178,40 @@
     padding: 1rem;
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+  
+    .sub-head-text {
+      text-align: center;
+      align-items: center;
+    }
+  
+    .hero-image {
+      margin-top: 2rem;
+      flex-direction: column;
+    }
+  
+    .info {
+      margin: 0 1rem;
+      text-align: center;
+    }
+  
+    .info-cards {
+      flex-direction: column;
+    }
+  
+    .cta {
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem;
+      margin: 1rem;
+    }
+
+    .quote {
+      padding: 1rem;
+      margin: 1 rem;
+    }
+  }
