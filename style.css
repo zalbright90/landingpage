@@ -29,6 +29,11 @@
     color: #F9FAF8;
     padding: 8px;
   }
+
+  .textImage {
+    width: 200px;
+    height: auto;
+  }
   
   .nav-links {
     display:flex;
